@@ -4,7 +4,7 @@ PORT=$2
 CHAT=$3
 
 # Clone Odoo directory
-git clone --depth=1 https://github.com/minhng92/odoo-19-docker-compose $DESTINATION
+git clone --depth=1 https://github.com/Hootei/odoo-19-docker-compose $DESTINATION
 rm -rf $DESTINATION/.git
 
 # Create PostgreSQL directory
@@ -53,4 +53,4 @@ else
 fi
 
 
-echo "Odoo started at http://localhost:$PORT | Master Password: minhng.info | Live chat port: $CHAT"
+echo "Odoo started at http://localhost:$PORT | Master Password: hooteicloud@2025 | Live chat port: $CHAT"
